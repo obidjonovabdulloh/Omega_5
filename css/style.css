@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #131314;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.navomega {
+    color: white;
+}
+
+.linksnav {
+    color: white;
+    padding: 0 20px;
+    transition: 1s;
+}
+
+.linksnav:hover {
+    color: #F04037;
+}
+
+.get {
+    color: white;
+    border: 1px solid #F04037;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.get:hover {
+    background: #F04037;
+}
+
+.main .container {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    background-image: url(/img/Oval\ Copy.png), url(../img/Oval.png);
+    background-repeat: no-repeat;
+    background-position-x: 700px, 700px;
+    background-size: 400px, 370px;
+    padding-bottom: 50px;
+}
+
+.textmain {
+    color: white;
+    font-size: 50px;
+    width: 55%;
+}
+
+.subtextmain {
+    color: rgba(255, 255, 255, 0.7);
+    width: 65%;
+    line-height: 30px;
+    margin-top: 20px;
+    background-repeat: no-repeat; 
+}
+
+.regist {
+    background-color: white;
+    border-radius: 6px;
+    width: 450px;
+    height: 360px;
+    margin-right: 100px;
+    box-shadow: 0px 42px 54px rgba(0, 0, 0, 0.788926)
+}
+
+fieldset {
+    width: 250px;
+    height: 60px;
+    border: 1px solid rgba(189, 176, 176, 0.308);
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.fil {
+    width: 250px;
+    height: 50px;
+    border: 1px solid rgba(189, 176, 176, 0.308);
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+option {
+    color: black;
+    font-size: 15px;
+}
+
+.input {
+    border: none;
+    outline: none;
+    padding: 0px 10px;
+    width: 100%;
+    font-weight: 600;
+}
+
+.inputnav {
+    border: none;
+    outline: none;
+    padding: 15px 10px;
+    width: 100%;
+    font-weight: 600;
+}
+
+select {
+    width: 250px;
+    height: 50px;
+    border: 1px solid rgba(189, 176, 176, 0.308);
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: gray;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.button {
+    border: 1px solid #F04037;
+    padding: 10px 30px;
+    margin-left: 50px;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: 1s;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: #F04037;
+    color: white;
+}
+
+.maintexts {
+    margin-left: 100px;
+}
+
+.sectext1 {
+    color: white;
+    font-size: 40px;
+    width: 35%;
+    text-align: center;
+    margin-left: 370px;
+}
+
+.box1 .container {
+    margin-top: 100px;
+    text-align: center;
+    background-image: url(/img/BG.png);
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    padding-bottom: 350px;
+    background-position-x: 20px;
+    background-position-y: 200px;
+}
+
+.box2 {
+    border-bottom: 1px solid #242427;
+}
+.linksec {
+    color: #FFFFFFB2;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.icon .bx {
+    border: 1px solid #5454D4;
+    border-radius: 50%;
+    background-color: #5454D4;
+    padding: 29px 30px;
+    color: white;
+    font-size: 40px;
+    margin-top: 300px;
+}
+
+.secul {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+
+.icons .bx {
+    border: 1px solid #5454D41A;
+    border-radius: 50%;
+    background: #5454D41A;
+    padding: 19px 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.icons1 .bx {
+    border: 1px solid #F040371A;
+    border-radius: 50%;
+    background: #F040371A;
+    padding: 19px 20px;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+.icons2 .bx {
+    border: 1px solid #FEDC5A1A;
+    border-radius: 50%;
+    background: #FEDC5A1A;
+    padding: 19px 20px;
+    color: yellow;
+    font-size: 20px;
+}
+
+.text1 {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.subte {
+    color: #FFFFFFB2;
+    width: 70%;
+    margin-left: 60px;
+    line-height: 30px;
+}
+.box3 .container{
+    display: flex;
+    margin-top: 150px;
+    background-image: url(/img/Oval\ Copy\ 3.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position-x: 180px;
+    background-position-y: 20px;
+    padding-bottom: 200px;
+}
+.inmgs{
+    background: #2e2e799a;
+    width: 380px;
+    height: 180px;
+    border-radius: 50%;
+    margin-left: 150px;
+}
+.linko{
+    color: white;
+    border: 1px solid #5454D4;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: 1s;
+}
+.linko:hover{
+    background-color: #5454D4;
+}
+.textsep{
+    width: 80%;
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.psec{
+    color:#FFFFFFB2;
+    line-height: 30px;
+    width: 75%;
+}
+.sectextf{
+    margin-left: 260px; 
+}
+.box4{
+    background: #1E1E20;
+}
+.textfan{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+   padding-top: 80px;
+}
+.subtextre{
+    color: #FFFFFFB2 ;
+    text-align: center;
+    width: 40%;
+    margin-left: 330px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.lolimg{
+    width: 405px;
+}
+.phonore{
+    display: flex;
+    margin-top: 100px;
+}
+.box5{
+    border-bottom: 1px solid rgba(77, 77, 77, 0.527);
+}
+.box5 .container{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+.titlesec{
+    color: white;
+    font-size: 40px;
+    width: 80%;
+}
+.inforser{
+    color:#FFFFFFB2;
+    width: 78%;
+    line-height: 30px;
+    padding: 20px 0px;
+}
+.lonk{
+    font-weight: 500;
+    border: 1px solid #F04037;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    transition: 1s;
+}
+.lonk:hover{
+    background-color: #F04037;
+}
+.informationsec{
+    margin-left: 100px;
+}
+.diviimg{
+    margin-right: 100px;
+}
+.linkimga{
+    background-image: url(/img/Oval\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position-x: 180px;
+    background-position-y: 150px;
+    width: 400px;
+    background-size: 200px;
+}
+.lotext{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.linksub{
+    color: #FFFFFFB2;
+    margin-left: 360px;
+    padding: 20px 0px;
+    padding-bottom: 50px;
+}
+.inforquet{
+    display: flex;
+    padding: 30px 0px;
+}
+.savol{
+    color: white;
+    padding-bottom: 30px;
+}
+.interes{
+    color: #FFFFFFB2;
+}
+.interes1{
+    color: #FFFFFFB2;
+    width: 80%;
+}
+.infortt1{
+    margin-left: 280px;
+    line-height: 25px;
+}
+.infortt2{
+    margin-left: 160px;
+    line-height: 25px;
+}
+.infortt{
+    line-height: 25px;
+}
+span{
+    color: #F04037;
+}
+.did{
+    color: #FFFFFFB2;
+    padding-left: 400px;
+    margin: 50px 0px;
+}
+.box7{
+    background-color: #1E1E20;
+}
+.box7 .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px;
+    background-image: url(/img/Oval\ \(2\).png), url(../img/Oval\ Copy.png);
+    background-repeat: no-repeat;
+    background-size: 200px , 400px;
+    background-position-y: 200px , 0px;
+    background-position-x: 0px , 880px;
+}
+.lasttext{
+    color: white;
+    font-size: 30px;
+    width: 28%;
+}
+.lonklast{
+    font-weight: 500;
+    border: 1px solid #F04037;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    transition: 1s;
+}
+
+.lonklast:hover{
+    background-color: #F04037;
+}
+.foter .container{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.aa{
+    color: rgb(255, 255, 255);
+}
+.plp{
+    color: rgb(255, 255, 255);
+}
+.footlk{
+    margin: 0 10px;
+}
+.foot .container{
+    border-bottom: 1px solid gray;
+}
+.aa1{
+    color: rgb(255, 255, 255);
+    padding: 0 15px;
+}
+.om{
+    color: white;
+}
